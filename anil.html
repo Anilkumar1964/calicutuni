@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=default'></script>
+  
+<style>
+  .alert1 {
+  background-color: #ff9800;
+  padding: 2px;
+}
+.alert2 {
+  background-color: #97dc2f;
+  padding: 2px;
+}
+
+
+
+.button {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+.button1 {border-radius: 12px;}
+body {
+  background-color: rgb(30, 189, 241);
+}
+</style>
+</head>
+<body>
+  <button class="button button1">Binomial Expansion</button>
+  <div class="alert1">
+     $$(a+b)^n=a^n+{{n}\choose{1}}a^{n-1}b+{{n}\choose{2}}a^{n-2}b^2+\cdots+{{n}\choose{n}}b^n$$
+         
+  </div>
+  <button class="button button1">Special Case</button>
+  <div class="alert2">
+    \begin{align*}(a+b)^3&=(a+b)(a+b)(a+b)\\
+    &=a^3+b^3+3ab(a+b)\\
+    &=a^3+b^3+3a^2b+3ab^2\end{align*} 
+        
+ </div>
+ <button class="button button1">Example of a function</button>
+ $$
+f(x)= \begin{cases}1, & x=0 \\ 0, & \text { if } x \text { is irrational, } \\ \frac{1}{n}, & \text { if } x=\frac{m}{n} \text { in lowest terms, } x \neq 0\end{cases}
+$$
+
+<h1>Equations </h1>
+
+<p>$$ {J(\theta) =\frac{1}{2m} [\sum^m_{i=1}(h_\theta(x^{(i)}) - y^{(i)})^2 + \lambda\sum^n_{j=1}\theta^2_j}] $$       </p>
+
+<h1> Matrices</h1>
+\begin{equation*}
+A_{m,n} = 
+\begin{pmatrix}
+a_{1,1} & a_{1,2} & \cdots & a_{1,n} \\
+a_{2,1} & a_{2,2} & \cdots & a_{2,n} \\
+\vdots  & \vdots  & \ddots & \vdots  \\
+a_{m,1} & a_{m,2} & \cdots & a_{m,n} 
+\end{pmatrix}
+\end{equation*} 
+\begin{equation}
+\begin{Vmatrix} 
+a_{11} & a_{12} & a_{13}  \\
+a_{21} & a_{22} & a_{23}  \\
+a_{31} & a_{32} & a_{33}  \\
+\end{Vmatrix} 
+\end{equation}
+
+</body>
+</html>
+
+
